@@ -2,10 +2,10 @@ import streamlit as st
 
 print('Run')
 
-pressed = st.button('Press me')
+pressed = st.button('Click moi')
 
-print("First button pressed: ", pressed)
+print("Premier button pressé: ", pressed)
 
-pressed2 = st.button('Press me 2')
+pressed2 = st.button('Click moi 2')
 
-print("Second button pressed: ", pressed2)
+print("Deuxième button pressé: ", pressed2)

@@ -15,13 +15,13 @@ def step_1():
     st.session_state.step = 1
 
 if st.session_state.step == 1:
-    st.header("Step 1: Info")
+    st.header("Step 1: Informations")
     name = st.text_input("Entrez votre nom", value=st.session_state.info.get("name", ""))
 
-    st.button("Next", on_click=step_2, args=(name,))
+    st.button("Suivant", on_click=step_2, args=(name,))
 
 if st.session_state.step == 2:
-    st.header("Step 2: Review")
+    st.header("Step 2: Vérifications")
 
     st.subheader("Merci de vérifier les informations suivantes:")
     st.write(f"**Nom**: {st.session_state.info.get('name', '')}")

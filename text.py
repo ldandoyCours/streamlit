@@ -1,10 +1,10 @@
 import streamlit as st
 
-st.title("Text")
-st.header("Header")
-st.subheader("Subheader")
+st.title("Tire")
+st.header("Entete")
+st.subheader("Sous-entete")
 st.markdown("c'est du **Markdown**")
-st.caption("Caption")
+st.caption("Légende")
 
 code_example = """
 def hello():

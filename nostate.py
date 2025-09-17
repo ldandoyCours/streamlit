@@ -2,10 +2,10 @@ import streamlit as st
 
 counter = 0
 
-st.write(f"Counter: {counter}")
+st.write(f"Compteur: {counter}")
 
-if st.button("Increment counter"):
+if st.button("Incrémenter counter"):
     counter += 1
-    st.write(f"Counter incremented to: {counter}")
+    st.write(f"Compteur est à: {counter}")
 else:
-    st.write(f"Counter stays at: {counter}")
+    st.write(f"compteur reste à: {counter}")

@@ -1,6 +1,6 @@
 import streamlit as st
 
 st.sidebar.title("Sidebar")
-st.sidebar.write("This is a sidebar")
+st.sidebar.write("C'est la sidebar")
 
-st.write("This is a main content")
+st.write("c'est la partie princial")
